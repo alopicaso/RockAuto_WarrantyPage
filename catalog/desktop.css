@@ -1,0 +1,338 @@
+
+
+body
+{
+    font-size: 12px;
+}
+
+.show-if-mobile {
+    display: none;
+}
+
+#section-tabs {
+    padding-left: 5px;
+}
+
+
+
+div.trustlogodiv img
+{
+    height: 30px;
+}
+
+.ra_trust_logo_div img
+{
+    height: 45px;
+}
+
+
+.listing-part-min-height
+{
+    
+    min-height:     50px; /* make sure parts without images get a respectable amount of space */
+}
+
+
+
+.listing-image-space-occupy
+{
+    /* border: 1px solid #FF0000; */
+    
+    /* these are exact manual calculations */
+    height: 52px; /* image + padding + border */
+    /*width: 121px;*/ /* image + padding + border + arrowbutton */ 
+    width: 136px; /* button on left and right of image 17+102+17 */
+}
+
+.listing-image-table {
+    margin-left: auto; 
+    margin-right: 0px;
+}
+
+.listing-image-table-leftrightcol {
+    width: 15px;
+    vertical-align: top; 
+}
+.listing-image-table-centercol {
+    vertical-align: top; 
+}
+
+
+
+img.listing-inline-image
+{
+    display:        block; /* imgs are usually inline, which gives extra space for letter descenders */
+    max-width:      100%;
+    max-height:     100%;
+    background:     white;
+    margin:         auto; /* center the image in the popup if it is too skinny */
+}
+img.listing-inline-image-moreinfo
+{
+    max-width:      500px;
+    max-height:     500px;
+}
+
+img.listing-inline-image-thumb
+{
+    max-width:      100px;
+    max-height:     50px;
+}
+
+.listing-inline-image-inpopup
+{
+    max-width:      100%; /* ie doesn't keep the dimensions proportional */
+    max-height:     100%;
+}
+
+.listing-inline-image-border /* the border goes around the image container, not image itself */ 
+{
+    border:         1px solid #999999; 
+}
+
+.listing-image-prevnext-image
+{
+    display: block;
+    vertical-align: top; 
+    max-height: 100%; 
+    max-width: 1.2em; 
+    cursor: pointer;
+}
+.listing-image-prevnext-image-inpopup
+{
+    max-width: 1.75em;
+    display: inline-block;
+    vertical-align: top;
+}
+.listing-image-prevnext-image-moreinfo
+{
+    max-width: 2.5em;
+    display: inline-block;
+    cursor: pointer;
+    vertical-align: top;
+}
+
+.listing-inline-image-popup-widget-title
+{
+    text-align: center; 
+    padding: .25em; 
+    cursor: move;
+    
+    background: #666699;
+    color: white;
+    font-weight: bold;
+    border-left: 1px solid white;
+    border-top: 1px solid white;
+    border-right: 1px solid white;
+    
+}
+
+.listing-inline-image-360-slider-min-width
+{
+    min-width: 150px;
+}
+
+.inlineimg_containersizer
+{
+    text-align: center;
+}
+
+img.inline-image-thumbnail
+{
+    max-width:      100px;
+    max-height:     50px;
+}
+
+img.inline-image-popup
+{
+    max-width:      300px;
+    max-height:     400px;
+}
+
+.listing-amount-header
+{
+    padding:  0em .75em 0em .5em;
+    min-width: 3em;
+}
+.map-price-text
+{
+    font-weight: normal;
+    color: red;
+    font-size: 12px;
+}
+
+.seeopt-price-text
+{
+    font-weight: normal;
+}
+
+.catalog-listing-button-wrapper-class {
+    padding-top: .25em; padding-bottom: .1em;
+}
+
+.section-tab-panel-inner {
+    padding-left: .5em; 
+    padding-right: .5em;
+}
+
+.testimonialimage {
+    padding: 0;
+    margin: 0;
+    border: none;
+    max-width:53px;
+}
+
+.section-tabs-panels {
+    border-top: 1px solid #dcdcdc; 
+    border-left: none;
+}
+
+.whatsnew-image-transparent-border {
+    border: 2px solid transparent;
+}
+
+.input-carcodesearch {
+    margin: 0px; 
+    padding: 0px; 
+    width: 20em; 
+    height: 16px;
+}
+
+.totals.tax td > table {
+    margin-left: 0;
+}
+
+.payment-box-c .p-box-o {
+    min-height: 80px;
+}
+
+.secure_icons-wrapper {
+    /* min-height: 80px; */
+}
+
+/* .ra-btn-color-softred,
+.ra-btn-color-softgreen {
+    font-size: 1.2em;
+} */
+
+.ra-btn-add-part {
+    font-size: 1.1em;
+}
+/* @-moz-document url-prefix() 
+{
+    .ra-btn-add-part,
+    .ra-btn-add-part:hover,
+    .ra-btn-add-part:active {
+        padding-top: .25em;
+    }
+} */
+
+
+.tbl-input-button-attached {
+    width: 100%;
+}
+.tbl-input-button-attached.attached-filter-size input {
+    height: 20px; /* Xem doesn't quite work here */
+    box-sizing: border-box;
+}
+.tbl-input-button-attached.attached-ccparttype-size input,
+.tbl-input-button-attached.attached-ccparttype-size .input-size {
+    height: 20px; /* Xem doesn't quite work here */
+    box-sizing: border-box;
+}
+.tbl-input-button-attached.attached-topsearch-size input,
+.tbl-input-button-attached.attached-topsearch-size .input-size {
+    height: 23px; /* Xem doesn't quite work here */
+    box-sizing: border-box;
+}
+
+.tbl-input-button-attached .td-input {
+    vertical-align: top;
+    padding: 0;
+}
+.tbl-input-button-attached .td-input input {
+    
+}
+.tbl-input-button-attached .td-button {
+    vertical-align: top;
+    padding: 0;
+}
+.tbl-input-button-attached .td-button input,
+.tbl-input-button-attached .td-button input:hover,
+.tbl-input-button-attached .td-button input:active {
+    margin-left: -1px;
+}
+.tbl-input-button-attached .td-button-right input,
+.tbl-input-button-attached .td-button-right > div {
+    margin-left: -1px;
+}
+.tbl-input-button-attached .td-button-left > div {
+    margin-right: -1px;
+}
+
+.span-filterinput .ra-btn-search-icon,
+.span-filterinput .ra-btn-search-icon:hover,
+.span-filterinput .ra-btn-search-icon:active,
+.catalog-search-bar-form  .ra-btn-search-icon,
+.catalog-search-bar-form  .ra-btn-search-icon:hover,
+.catalog-search-bar-form  .ra-btn-search-icon:active,
+.ccsi-wrapper .ra-btn-search-icon,
+.ccsi-wrapper .ra-btn-search-icon:hover,
+.ccsi-wrapper .ra-btn-search-icon:active
+{
+    padding: 0;
+    width: 1.7em;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    box-sizing: border-box;
+    background-image: url(../Images/mobile/magnifier.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 1em 1em;
+    padding: 0;
+    margin: 0;
+    
+    background-color:       #60608A;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+.span-filterinput .ra-btn-search-icon:hover,
+.span-filterinput .ra-btn-search-icon:active,
+.catalog-search-bar-form  .ra-btn-search-icon:hover,
+.catalog-search-bar-form  .ra-btn-search-icon:active,
+.ccsi-wrapper .ra-btn-search-icon:hover,
+.ccsi-wrapper .ra-btn-search-icon:active
+{
+    background-color:       #6F6F95;
+}
+
+.catalog-search-bar-form {
+    margin-top: 1px;
+}
+
+
+
+.osr-main-box-image {
+    height: 125px;
+}
+
+.osr-main-box-table {
+    width:75%; 
+    margin: auto;
+}
+.osr-main-box-table-td {
+    width: 25%; 
+    text-align: center; 
+    vertical-align: top; 
+    padding: 0px 25px 0px 25px;
+}
+
+.osr-main-to-get-started {
+    font-weight: bold; font-size: 1.50em;
+}
+
+
+
+
+

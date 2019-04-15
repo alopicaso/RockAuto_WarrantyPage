@@ -1,0 +1,287 @@
+body {
+    font-size: 12px
+}
+
+.show-if-mobile {
+    display: none
+}
+
+#section-tabs {
+    padding-left: 5px
+}
+
+div.trustlogodiv img {
+    height: 30px
+}
+
+.ra_trust_logo_div img {
+    height: 45px
+}
+
+.listing-part-min-height {
+    min-height: 50px
+}
+
+.listing-image-space-occupy {
+    height: 52px;
+    width: 136px
+}
+
+.listing-image-table {
+    margin-left: auto;
+    margin-right: 0
+}
+
+.listing-image-table-leftrightcol {
+    width: 15px;
+    vertical-align: top
+}
+
+.listing-image-table-centercol {
+    vertical-align: top
+}
+
+img.listing-inline-image {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    background: #fff;
+    margin: auto
+}
+
+img.listing-inline-image-moreinfo {
+    max-width: 500px;
+    max-height: 500px
+}
+
+img.listing-inline-image-thumb {
+    max-width: 100px;
+    max-height: 50px
+}
+
+.listing-inline-image-inpopup {
+    max-width: 100%;
+    max-height: 100%
+}
+
+.listing-inline-image-border {
+    border: 1px solid #999
+}
+
+.listing-image-prevnext-image {
+    display: block;
+    vertical-align: top;
+    max-height: 100%;
+    max-width: 1.2em;
+    cursor: pointer
+}
+
+.listing-image-prevnext-image-inpopup {
+    max-width: 1.75em;
+    display: inline-block;
+    vertical-align: top
+}
+
+.listing-image-prevnext-image-moreinfo {
+    max-width: 2.5em;
+    display: inline-block;
+    cursor: pointer;
+    vertical-align: top
+}
+
+.listing-inline-image-popup-widget-title {
+    text-align: center;
+    padding: .25em;
+    cursor: move;
+    background: #669;
+    color: #fff;
+    font-weight: 700;
+    border-left: 1px solid #fff;
+    border-top: 1px solid #fff;
+    border-right: 1px solid #fff
+}
+
+.listing-inline-image-360-slider-min-width {
+    min-width: 150px
+}
+
+.inlineimg_containersizer {
+    text-align: center
+}
+
+img.inline-image-thumbnail {
+    max-width: 100px;
+    max-height: 50px
+}
+
+img.inline-image-popup {
+    max-width: 300px;
+    max-height: 400px
+}
+
+.listing-amount-header {
+    padding: 0 .75em 0 .5em;
+    min-width: 3em
+}
+
+.map-price-text {
+    font-weight: 400;
+    color: red;
+    font-size: 12px
+}
+
+.seeopt-price-text {
+    font-weight: 400
+}
+
+.catalog-listing-button-wrapper-class {
+    padding-top: .25em;
+    padding-bottom: .1em
+}
+
+.section-tab-panel-inner {
+    padding-right: .5em
+}
+
+.testimonialimage {
+    padding: 0;
+    margin: 0;
+    border: none;
+    max-width: 53px
+}
+
+.section-tabs-panels {
+    border-top: 1px solid #dcdcdc;
+    border-left: none
+}
+
+.whatsnew-image-transparent-border {
+    border: 2px solid transparent
+}
+
+.input-carcodesearch {
+    margin: 0;
+    padding: 0;
+    width: 20em;
+    height: 16px
+}
+
+.totals.tax td>table {
+    margin-left: 0
+}
+
+.payment-box-c .p-box-o {
+    min-height: 80px
+}
+
+.ra-btn-add-part {
+    font-size: 1.1em
+}
+
+.tbl-input-button-attached {
+    width: 100%
+}
+
+.tbl-input-button-attached.attached-ccparttype-size .input-size, .tbl-input-button-attached.attached-ccparttype-size input, .tbl-input-button-attached.attached-filter-size input {
+    height: 20px;
+    box-sizing: border-box
+}
+
+.tbl-input-button-attached.attached-topsearch-size .input-size, .tbl-input-button-attached.attached-topsearch-size input {
+    height: 23px;
+    box-sizing: border-box
+}
+
+.tbl-input-button-attached .td-input {
+    vertical-align: top;
+    padding: 0
+}
+
+.tbl-input-button-attached .td-button {
+    vertical-align: top;
+    padding: 0
+}
+
+.tbl-input-button-attached .td-button-right>div, .tbl-input-button-attached .td-button-right input, .tbl-input-button-attached .td-button input, .tbl-input-button-attached .td-button input:active, .tbl-input-button-attached .td-button input:hover {
+    margin-left: -1px
+}
+
+.tbl-input-button-attached .td-button-left>div {
+    margin-right: -1px
+}
+
+.catalog-search-bar-form .ra-btn-search-icon, .catalog-search-bar-form .ra-btn-search-icon:active, .catalog-search-bar-form .ra-btn-search-icon:hover, .ccsi-wrapper .ra-btn-search-icon, .ccsi-wrapper .ra-btn-search-icon:active, .ccsi-wrapper .ra-btn-search-icon:hover, .span-filterinput .ra-btn-search-icon, .span-filterinput .ra-btn-search-icon:active, .span-filterinput .ra-btn-search-icon:hover {
+    width: 1.7em;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    box-sizing: border-box;
+    background-image: url(../Images/mobile/magnifier.png);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: 1em 1em;
+    padding: 0;
+    margin: 0;
+    background-color: #60608a;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px
+}
+
+.catalog-search-bar-form .ra-btn-search-icon:active, .catalog-search-bar-form .ra-btn-search-icon:hover, .ccsi-wrapper .ra-btn-search-icon:active, .ccsi-wrapper .ra-btn-search-icon:hover, .span-filterinput .ra-btn-search-icon:active, .span-filterinput .ra-btn-search-icon:hover {
+    background-color: #6f6f95
+}
+
+.catalog-search-bar-form {
+    margin-top: 1px
+}
+
+.osr-main-box-image {
+    height: 125px
+}
+
+.osr-main-box-table {
+    width: 75%;
+    margin: auto
+}
+
+.osr-main-box-table-td {
+    width: 25%;
+    text-align: center;
+    vertical-align: top;
+    padding: 0 25px
+}
+
+.osr-main-to-get-started {
+    font-weight: 700;
+    font-size: 1.5em
+}
+
+#myInput {
+    background-image: url('/css/searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+  }
+  
+  #myTable {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ddd;
+    font-size: 18px;
+  }
+  
+  #myTable th, #myTable td {
+    text-align: left;
+    padding: 12px;
+  }
+  
+  #myTable tr {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  #myTable tr.header, #myTable tr:hover {
+    background-color: #f1f1f1;
+  }
